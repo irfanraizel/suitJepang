@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans' ;
+    text-decoration: none;
+}
+
+body {
+    background-color: #264653;
+}
+
+.judul {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e2f2f0;
+}
+
+.judul h1 {
+    font-size: 70px;
+}
+
+.container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 200px;
+}
+
+
+
+.batu:hover {
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.gunting:hover {
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.kertas:hover {
+    opacity: 0.7;
+    transition: 0.4s;
+}
